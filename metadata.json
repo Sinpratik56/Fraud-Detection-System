@@ -1,0 +1,5 @@
+{
+  "name": "Fraud Detection Analyst Console",
+  "description": "A real-time web console for fraud analysts to review, investigate, and act on suspicious financial transactions detected by a machine learning system.",
+  "requestFramePermissions": []
+}

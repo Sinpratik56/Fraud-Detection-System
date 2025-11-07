@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fraud Detection Analyst Console</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'purple-950': '#1a1033',
+              'purple-900': '#2a1a4d',
+              'purple-800': '#3e287a',
+              'purple-700': '#5538a6',
+              'purple-600': '#6c48d1',
+              'purple-500': '#8b5cf6',
+              'purple-400': '#a78bfa',
+              'purple-300': '#c4b5fd',
+              'gold-500': '#f59e0b',
+              'gold-400': '#fbbf24',
+              // Keep original gray for text shades if needed
+              'gray-500': '#6B7280',
+              'gray-400': '#9CA3AF',
+              'gray-300': '#D1D5DB',
+            },
+            animation: {
+              'pulse-fast': 'pulse 1s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+              'slow-pan': 'slow-pan 50s ease-in-out infinite alternate',
+            },
+            keyframes: {
+              'slow-pan': {
+                '0%': { backgroundPosition: '0% 50%' },
+                '100%': { backgroundPosition: '100% 50%' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-purple-950 text-purple-300">
+    <!-- Background Image Container -->
+    <div class="fixed inset-0 z-0">
+      <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1604355255938-14197c23a7e3?q=80&w=2070&auto=format&fit=crop');"></div>
+      <div class="absolute inset-0 bg-purple-950/80"></div>
+    </div>
+    
+    <!-- React App Mount Point -->
+    <div id="root" class="relative z-10"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
