@@ -9,21 +9,7 @@
 
 A Project Report Submitted in Partial Fulfillment of the Requirements for the Degree of
 
-**[Your Degree Name]**
 
-by
-
-**[Your Name]**
-**[Your ID/Roll Number]**
-
-Under the guidance of
-
-**[Your Guide's Name]**
-**[Your Guide's Designation]**
-
-**[Your Department/Institution Name]**
-**[City, State, Zip Code]**
-**[Date]**
 
 ---
 
